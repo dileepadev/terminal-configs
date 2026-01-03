@@ -12,9 +12,10 @@ Welcome to my personal terminal configuration repository! This collection contai
 
 Before using these configurations, ensure you have the following installed:
 
-- A terminal emulator.
-- A [Nerd Font](https://www.nerdfonts.com/) (recommended for icons)
-- [Git](https://git-scm.com/)
+- A terminal emulator (e.g., Windows Terminal).
+- A [Nerd Font](https://www.nerdfonts.com/) (recommended for icons).
+- [Git](https://git-scm.com/).
+- [Oh My Posh](https://ohmyposh.dev/).
 
 ## Installation
 
@@ -30,20 +31,16 @@ Before using these configurations, ensure you have the following installed:
     - Configure your terminal to use this font.
 
 3. **Apply Configurations:**
-    - *[Add instructions here on how to link or copy files to their respective config locations]*
-    - Example for PowerShell:
-
-      ```powershell
-      . $PSScriptRoot/setup.ps1
-      ```
+    - Copy the contents of `PowerShell/` to your PowerShell profile directory (usually `Documents/PowerShell`).
+    - Copy the contents of `WindowsPowerShell/` to your Windows PowerShell profile directory (usually `Documents/WindowsPowerShell`).
+    - Ensure the paths in `Microsoft.PowerShell_profile.ps1` point to the correct location of `dileepadev.json`.
 
 ## Repository Structure
 
 ```text
 terminal-configs/
-├── fonts/          # Custom fonts
-├── powershell/     # PowerShell profile and modules
-├── themes/         # Terminal themes (Oh My Posh, etc.)
-├── scripts/        # Utility scripts
+├── PowerShell/         # PowerShell Core (pwsh) configuration
+├── WindowsPowerShell/  # Windows PowerShell configuration
+├── LICENSE
 └── README.md
 ```
