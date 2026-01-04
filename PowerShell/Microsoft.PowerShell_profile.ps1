@@ -1,1 +1,1 @@
-oh-my-posh init pwsh --config "C:\Users\dileepadev\OneDrive\Documents\PowerShell\dileepadev.json" | Invoke-Expression
+oh-my-posh init pwsh --config "C:\Users\dileepadev\OneDrive\Documents\PowerShell\dileepadev.omp.json" | Invoke-Expression

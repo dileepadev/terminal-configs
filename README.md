@@ -33,7 +33,7 @@ Before using these configurations, ensure you have the following installed:
 3. **Apply Configurations:**
     - Copy the contents of `PowerShell/` to your PowerShell profile directory (usually `Documents/PowerShell`).
     - Copy the contents of `WindowsPowerShell/` to your Windows PowerShell profile directory (usually `Documents/WindowsPowerShell`).
-    - Ensure the paths in `Microsoft.PowerShell_profile.ps1` point to the correct location of `dileepadev.json`.
+    - Ensure the paths in `Microsoft.PowerShell_profile.ps1` point to the correct location of `dileepadev.omp.json`.
 
 ## Repository Structure
 
