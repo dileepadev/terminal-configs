@@ -2,6 +2,12 @@
 
 Welcome to my personal terminal configuration repository! This collection contains configuration files, scripts, and themes designed to create a productive, beautiful, and efficient terminal experience.
 
+## Screenshots
+
+PowerShell with Oh My Posh Theme:
+
+![PowerShell Screenshot](https://dileepadev.github.io/images/terminal-configs/powershell-oh-my-posh.png)
+
 ## Features
 
 - **Shell Configuration**: Optimized setups for PowerShell / Bash.
