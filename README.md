@@ -17,6 +17,34 @@ Before using these configurations, ensure you have the following installed:
 - [Git](https://git-scm.com/).
 - [Oh My Posh](https://ohmyposh.dev/).
 
+## Current Versions
+
+- PowerShell: `7.5.4`
+
+    ```powershell
+    pwsh --version
+    ```
+
+- Windows Terminal: 123.13503.0
+
+    ```powershell
+    wt --version
+    ```
+
+- Oh My Posh: `26.14.3`
+  
+    ```powershell
+    oh-my-posh --version
+    ```
+
+- Git: `git version 2.52.0.windows.1`
+
+    ```bash
+    git --version
+    ```
+
+- Nerd Fonts: v3.4.0
+
 ## Installation
 
 1. **Clone the repository:**
