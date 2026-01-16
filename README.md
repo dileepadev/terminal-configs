@@ -2,6 +2,18 @@
 
 Welcome to my personal terminal configuration repository! This collection contains configuration files, scripts, and themes designed to create a productive, beautiful, and efficient terminal experience.
 
+## Table of Contents
+
+- [Terminal Configs](#terminal-configs)
+  - [Table of Contents](#table-of-contents)
+  - [Screenshots](#screenshots)
+  - [Features](#features)
+  - [Prerequisites](#prerequisites)
+  - [Current Versions](#current-versions)
+  - [Installation](#installation)
+  - [Font Details](#font-details)
+  - [Repository Structure](#repository-structure)
+
 ## Screenshots
 
 PowerShell with Oh My Posh Theme:
@@ -69,12 +81,17 @@ Before using these configurations, ensure you have the following installed:
     - Copy the contents of `WindowsPowerShell/` to your Windows PowerShell profile directory (usually `Documents/WindowsPowerShell`).
     - Ensure the paths in `Microsoft.PowerShell_profile.ps1` point to the correct location of `dileepadev.omp.json`.
 
+## Font Details
+
+In this version, I use the **Caskaydia Cove Nerd Font** for its clean look and excellent readability. You can download it from the [Nerd Fonts website](https://www.nerdfonts.com/font-downloads).
+
 ## Repository Structure
+
+Below are the main directories and their purposes:
 
 ```text
 terminal-configs/
 ├── PowerShell/         # PowerShell Core (pwsh) configuration
 ├── WindowsPowerShell/  # Windows PowerShell configuration
-├── LICENSE
-└── README.md
+└── ...
 ```
