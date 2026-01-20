@@ -13,6 +13,13 @@ Changes are organized into the following categories:
 
 - Changes for the next release are available in development branches.
 
+## [v1.1.0] - 2026-01-20
+
+### Added
+
+- Added Ubuntu terminal configuration with Zsh, Oh My Zsh, and Starship prompt.
+- Added guidelines for installing and setting up.
+
 ## [v1.0.0] - 2026-01-16
 
 ### Added
