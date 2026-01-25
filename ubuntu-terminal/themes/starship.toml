@@ -11,19 +11,19 @@ $character
 
 # Username
 [username]
-format = "[\\(👣 $user\\)]($style)"
+format = "[\\[👣 $user\\]]($style)"
 style_user = "bold #176bc6"
 style_root = "bold #ff0000"
 show_always = true
 
 # Directory module
 [directory]
-format = "[ \\(💎 $path\\)]($style)"
+format = "[ \\[💎 $path\\]]($style)"
 style = "bold #33c7de"
 truncate_to_repo = false
 
 [custom.git_provider]
-format = " [\\($output\\)]($style)"
+format = " [\\[$output\\]]($style)"
 description = "Show Git remote provider"
 # Use literal string (''' … ''') so no escapes are needed
 command = '''
@@ -49,7 +49,7 @@ style = "bold #b1b1b1"
 
 # Git branch
 [git_branch]
-format = " [\\($symbol$branch]($style)"
+format = " [\\[$symbol$branch]($style)"
 always_show_remote = false
 symbol = '🌱 '
 style = "bold #99c23b"
@@ -57,45 +57,45 @@ style = "bold #99c23b"
 # Git status with counts for all categories
 [git_status]
 # Format layout: all statuses then ahead/behind
-format = "[ $all_status$ahead_behind\\)]($style)"
+format = "[ $all_status$ahead_behind\\]]($style)"
 # Show counts for each file status
-conflicted = "=${count}"
-stashed = " ≡${count}"
-deleted = " ✘${count}"
-renamed = " »${count}"
-modified = "!${count}"
-staged = " +${count}"
-untracked = " ?${count}"
-typechanged = " t${count}"
+conflicted = "\\(c=${count}\\)"
+stashed = "\\(s≡${count}\\)"
+deleted = "\\(d✘${count}\\)"
+renamed = "\\(r»${count}\\)"
+modified = "\\(m!${count}\\)"
+staged = "\\(s+${count}\\)"
+untracked = "\\(u?${count}\\)"
+typechanged = "\\(t!${count}\\)"
 # Show commits ahead/behind/diverged with commit counts
-ahead = " ⇡${count}"
-behind = " ⇣${count}"
-diverged = " ⇕⇡${ahead_count}⇣${behind_count} "
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count} "
 # Style for git status
 style = "bold #99c23b"
 
 # Node.js version
 [nodejs]
-format = "[ \\(🟢 $symbol $version\\)]($style)"
+format = "[ \\[🟢 $symbol $version\\]]($style)"
 symbol = "Node.js"
 style = "bold #339933"
 
 # Python version
 [python]
-format = "[ \\(🐍 $symbol $version\\)]($style)"
+format = "[ \\[🐍 $symbol $version\\]]($style)"
 symbol = "Python"
 style = "bold #ffd43B"
 
 # Rust cargo version
 [rust]
-format = "[ \\(🦀 $symbol $version\\)]($style)"
+format = "[ \\[🦀 $symbol $version\\]]($style)"
 symbol = "Rust"
 style = "bold #dea584"
 
 # Time module
 [time]
 disabled = false
-format = '[ \(⏰ $time\)]($style)'
+format = '[ \[⏰ $time\]]($style)'
 style = "bold #ff0040"
 time_format = '%T'
 
@@ -103,7 +103,7 @@ time_format = '%T'
 [package]
 disabled = false
 display_private = true
-format = "[ \\($symbol$version\\)]($style)"
+format = "[ \\[$symbol$version\\]]($style)"
 symbol = "📦 "
 style = "bold #db7500"
 
