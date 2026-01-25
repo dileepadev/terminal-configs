@@ -57,7 +57,7 @@ style = "bold #99c23b"
 # Git status with counts for all categories
 [git_status]
 # Format layout: all statuses then ahead/behind
-format = "[$all_status$ahead_behind\\]]($style)"
+format = "[ $all_status$ahead_behind\\]]($style)"
 # Show counts for each file status
 conflicted = "\\(c=${count}\\)"
 stashed = "\\(s≡${count}\\)"
